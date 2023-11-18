@@ -1,4 +1,4 @@
 
-data "azurerm_resource_group" "statefilestore_rg" {
- name = "backend_rg"
+data "azurerm_resource_group" "statefilestorerg" {
+ name = "remotebackend_rg"
 }
