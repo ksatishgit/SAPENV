@@ -8,7 +8,4 @@ variable "location" {
  type = string
 }
 
-variable  "tags" {
- description = "tags will be mapped to resource froup"
- type = map(string)
-}
+
